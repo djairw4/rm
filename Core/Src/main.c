@@ -186,27 +186,27 @@ int main(void)
 
 
 if(wynik>1220 && wynik<1235){
-Duty=70;
+Duty=700;
 RUN1();
 }
 else if (wynik>=1235 && wynik<1475){
-Duty=100;
+Duty=1000;
 RUN1();
 }
 else if (wynik>=1475 && wynik<1600){
-Duty=100;
+Duty=1000;
 RUN1();
 }
 else if(wynik<1200 && wynik>1190){
-Duty=70;
+Duty=700;
 RUN2();
 }
 else if (wynik>940 && wynik<=1190){
-Duty=100;
+Duty=1000;
 RUN2();
 }
 else if (wynik>830 && wynik<=940){
-Duty=100;
+Duty=1000;
 RUN2();
 }
 else{
